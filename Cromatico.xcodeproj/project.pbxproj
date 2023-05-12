@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DD106472A0EA5F600FF1FB9 /* CromaticoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD106462A0EA5F600FF1FB9 /* CromaticoApp.swift */; };
+		1DD106492A0EA5F600FF1FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD106482A0EA5F600FF1FB9 /* ContentView.swift */; };
+		1DD1064B2A0EA5F800FF1FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1064A2A0EA5F800FF1FB9 /* Assets.xcassets */; };
+		1DD1064E2A0EA5F800FF1FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1064D2A0EA5F800FF1FB9 /* Preview Assets.xcassets */; };
+		1DD106582A0EA5F800FF1FB9 /* CromaticoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD106572A0EA5F800FF1FB9 /* CromaticoTests.swift */; };
+		1DD106622A0EA5F800FF1FB9 /* CromaticoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD106612A0EA5F800FF1FB9 /* CromaticoUITests.swift */; };
+		1DD106642A0EA5F800FF1FB9 /* CromaticoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD106632A0EA5F800FF1FB9 /* CromaticoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DD106542A0EA5F800FF1FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DD1063B2A0EA5F600FF1FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD106422A0EA5F600FF1FB9;
+			remoteInfo = Cromatico;
+		};
+		1DD1065E2A0EA5F800FF1FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DD1063B2A0EA5F600FF1FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD106422A0EA5F600FF1FB9;
+			remoteInfo = Cromatico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD106432A0EA5F600FF1FB9 /* Cromatico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cromatico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD106462A0EA5F600FF1FB9 /* CromaticoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CromaticoApp.swift; sourceTree = "<group>"; };
+		1DD106482A0EA5F600FF1FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DD1064A2A0EA5F800FF1FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DD1064D2A0EA5F800FF1FB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DD106532A0EA5F800FF1FB9 /* CromaticoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CromaticoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD106572A0EA5F800FF1FB9 /* CromaticoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CromaticoTests.swift; sourceTree = "<group>"; };
+		1DD1065D2A0EA5F800FF1FB9 /* CromaticoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CromaticoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD106612A0EA5F800FF1FB9 /* CromaticoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CromaticoUITests.swift; sourceTree = "<group>"; };
+		1DD106632A0EA5F800FF1FB9 /* CromaticoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CromaticoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD106402A0EA5F600FF1FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD106502A0EA5F800FF1FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD1065A2A0EA5F800FF1FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DD1063A2A0EA5F600FF1FB9 = {
+			isa = PBXGroup;
+			children = (
+				1DD106452A0EA5F600FF1FB9 /* Cromatico */,
+				1DD106562A0EA5F800FF1FB9 /* CromaticoTests */,
+				1DD106602A0EA5F800FF1FB9 /* CromaticoUITests */,
+				1DD106442A0EA5F600FF1FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DD106442A0EA5F600FF1FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD106432A0EA5F600FF1FB9 /* Cromatico.app */,
+				1DD106532A0EA5F800FF1FB9 /* CromaticoTests.xctest */,
+				1DD1065D2A0EA5F800FF1FB9 /* CromaticoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DD106452A0EA5F600FF1FB9 /* Cromatico */ = {
+			isa = PBXGroup;
+			children = (
+				1DD106462A0EA5F600FF1FB9 /* CromaticoApp.swift */,
+				1DD106482A0EA5F600FF1FB9 /* ContentView.swift */,
+				1DD1064A2A0EA5F800FF1FB9 /* Assets.xcassets */,
+				1DD1064C2A0EA5F800FF1FB9 /* Preview Content */,
+			);
+			path = Cromatico;
+			sourceTree = "<group>";
+		};
+		1DD1064C2A0EA5F800FF1FB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DD1064D2A0EA5F800FF1FB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DD106562A0EA5F800FF1FB9 /* CromaticoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DD106572A0EA5F800FF1FB9 /* CromaticoTests.swift */,
+			);
+			path = CromaticoTests;
+			sourceTree = "<group>";
+		};
+		1DD106602A0EA5F800FF1FB9 /* CromaticoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DD106612A0EA5F800FF1FB9 /* CromaticoUITests.swift */,
+				1DD106632A0EA5F800FF1FB9 /* CromaticoUITestsLaunchTests.swift */,
+			);
+			path = CromaticoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DD106422A0EA5F600FF1FB9 /* Cromatico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD106672A0EA5F800FF1FB9 /* Build configuration list for PBXNativeTarget "Cromatico" */;
+			buildPhases = (
+				1DD1063F2A0EA5F600FF1FB9 /* Sources */,
+				1DD106402A0EA5F600FF1FB9 /* Frameworks */,
+				1DD106412A0EA5F600FF1FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cromatico;
+			productName = Cromatico;
+			productReference = 1DD106432A0EA5F600FF1FB9 /* Cromatico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DD106522A0EA5F800FF1FB9 /* CromaticoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD1066A2A0EA5F800FF1FB9 /* Build configuration list for PBXNativeTarget "CromaticoTests" */;
+			buildPhases = (
+				1DD1064F2A0EA5F800FF1FB9 /* Sources */,
+				1DD106502A0EA5F800FF1FB9 /* Frameworks */,
+				1DD106512A0EA5F800FF1FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DD106552A0EA5F800FF1FB9 /* PBXTargetDependency */,
+			);
+			name = CromaticoTests;
+			productName = CromaticoTests;
+			productReference = 1DD106532A0EA5F800FF1FB9 /* CromaticoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DD1065C2A0EA5F800FF1FB9 /* CromaticoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD1066D2A0EA5F800FF1FB9 /* Build configuration list for PBXNativeTarget "CromaticoUITests" */;
+			buildPhases = (
+				1DD106592A0EA5F800FF1FB9 /* Sources */,
+				1DD1065A2A0EA5F800FF1FB9 /* Frameworks */,
+				1DD1065B2A0EA5F800FF1FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DD1065F2A0EA5F800FF1FB9 /* PBXTargetDependency */,
+			);
+			name = CromaticoUITests;
+			productName = CromaticoUITests;
+			productReference = 1DD1065D2A0EA5F800FF1FB9 /* CromaticoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DD1063B2A0EA5F600FF1FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1DD106422A0EA5F600FF1FB9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					1DD106522A0EA5F800FF1FB9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1DD106422A0EA5F600FF1FB9;
+					};
+					1DD1065C2A0EA5F800FF1FB9 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 1DD106422A0EA5F600FF1FB9;
+					};
+				};
+			};
+			buildConfigurationList = 1DD1063E2A0EA5F600FF1FB9 /* Build configuration list for PBXProject "Cromatico" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DD1063A2A0EA5F600FF1FB9;
+			productRefGroup = 1DD106442A0EA5F600FF1FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DD106422A0EA5F600FF1FB9 /* Cromatico */,
+				1DD106522A0EA5F800FF1FB9 /* CromaticoTests */,
+				1DD1065C2A0EA5F800FF1FB9 /* CromaticoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD106412A0EA5F600FF1FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD1064E2A0EA5F800FF1FB9 /* Preview Assets.xcassets in Resources */,
+				1DD1064B2A0EA5F800FF1FB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD106512A0EA5F800FF1FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD1065B2A0EA5F800FF1FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD1063F2A0EA5F600FF1FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD106492A0EA5F600FF1FB9 /* ContentView.swift in Sources */,
+				1DD106472A0EA5F600FF1FB9 /* CromaticoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD1064F2A0EA5F800FF1FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD106582A0EA5F800FF1FB9 /* CromaticoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD106592A0EA5F800FF1FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD106642A0EA5F800FF1FB9 /* CromaticoUITestsLaunchTests.swift in Sources */,
+				1DD106622A0EA5F800FF1FB9 /* CromaticoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DD106552A0EA5F800FF1FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD106422A0EA5F600FF1FB9 /* Cromatico */;
+			targetProxy = 1DD106542A0EA5F800FF1FB9 /* PBXContainerItemProxy */;
+		};
+		1DD1065F2A0EA5F800FF1FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD106422A0EA5F600FF1FB9 /* Cromatico */;
+			targetProxy = 1DD1065E2A0EA5F800FF1FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DD106652A0EA5F800FF1FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DD106662A0EA5F800FF1FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DD106682A0EA5F800FF1FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cromatico/Preview Content\"";
+				DEVELOPMENT_TEAM = JF8PTRU8N6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromuniz.Cromatico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DD106692A0EA5F800FF1FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cromatico/Preview Content\"";
+				DEVELOPMENT_TEAM = JF8PTRU8N6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromuniz.Cromatico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DD1066B2A0EA5F800FF1FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF8PTRU8N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromuniz.CromaticoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cromatico.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cromatico";
+			};
+			name = Debug;
+		};
+		1DD1066C2A0EA5F800FF1FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF8PTRU8N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromuniz.CromaticoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cromatico.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cromatico";
+			};
+			name = Release;
+		};
+		1DD1066E2A0EA5F800FF1FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF8PTRU8N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromuniz.CromaticoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cromatico;
+			};
+			name = Debug;
+		};
+		1DD1066F2A0EA5F800FF1FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JF8PTRU8N6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromuniz.CromaticoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cromatico;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD1063E2A0EA5F600FF1FB9 /* Build configuration list for PBXProject "Cromatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD106652A0EA5F800FF1FB9 /* Debug */,
+				1DD106662A0EA5F800FF1FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD106672A0EA5F800FF1FB9 /* Build configuration list for PBXNativeTarget "Cromatico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD106682A0EA5F800FF1FB9 /* Debug */,
+				1DD106692A0EA5F800FF1FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD1066A2A0EA5F800FF1FB9 /* Build configuration list for PBXNativeTarget "CromaticoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD1066B2A0EA5F800FF1FB9 /* Debug */,
+				1DD1066C2A0EA5F800FF1FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD1066D2A0EA5F800FF1FB9 /* Build configuration list for PBXNativeTarget "CromaticoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD1066E2A0EA5F800FF1FB9 /* Debug */,
+				1DD1066F2A0EA5F800FF1FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DD1063B2A0EA5F600FF1FB9 /* Project object */;
+}
