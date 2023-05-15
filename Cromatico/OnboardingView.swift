@@ -8,7 +8,9 @@
 import SwiftUI
 
 let onBoardingText = """
-Este app identifica as cores de canetas esferográficas da Faber Castell através da câmera do seu celular. Ao clicar no botão abaixo, a câmera do seu aparelho será iniciada. Basta apontá-la para a caneta cuja cor você quer identificar.
+Este app identifica as cores de canetas esferográficas através da câmera do seu celular. Ao clicar no botão abaixo, a câmera do seu aparelho será iniciada. Basta apontá-la para a caneta cuja cor você quer identificar.
+
+Aconselhamos apontar a câmera para uma única caneta por vez.
 
 Você pode acessar esta explicação novamente clicando no botão de ajuda.
 """
@@ -26,7 +28,7 @@ struct OnBoardingView: View {
 
                 Spacer()
 
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: CameraView()) {
                     Text("Iniciar câmera")
                         .font(.system(size: 24, weight: .bold))
                         .frame(width: 280, height: 50)
@@ -38,6 +40,7 @@ struct OnBoardingView: View {
                         .background(Color("customOrange"))
                         .cornerRadius(15)
                 }
+//                .padding(.bottom)
 
                 Spacer()
             }

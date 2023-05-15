@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D305E1D2A12893B006DC3FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D305E1C2A12893B006DC3FB /* ViewController.swift */; };
+		1D305E1F2A12B1BA006DC3FB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D305E1E2A12B1BA006DC3FB /* CameraView.swift */; };
 		1DD106472A0EA5F600FF1FB9 /* CromaticoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD106462A0EA5F600FF1FB9 /* CromaticoApp.swift */; };
-		1DD106492A0EA5F600FF1FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD106482A0EA5F600FF1FB9 /* ContentView.swift */; };
 		1DD1064B2A0EA5F800FF1FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1064A2A0EA5F800FF1FB9 /* Assets.xcassets */; };
 		1DD1064E2A0EA5F800FF1FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1064D2A0EA5F800FF1FB9 /* Preview Assets.xcassets */; };
 		1DD106582A0EA5F800FF1FB9 /* CromaticoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD106572A0EA5F800FF1FB9 /* CromaticoTests.swift */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D305E1C2A12893B006DC3FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D305E1E2A12B1BA006DC3FB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		1DD106432A0EA5F600FF1FB9 /* Cromatico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cromatico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD106462A0EA5F600FF1FB9 /* CromaticoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CromaticoApp.swift; sourceTree = "<group>"; };
-		1DD106482A0EA5F600FF1FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DD1064A2A0EA5F800FF1FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DD1064D2A0EA5F800FF1FB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DD106532A0EA5F800FF1FB9 /* CromaticoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CromaticoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,8 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				1DD106462A0EA5F600FF1FB9 /* CromaticoApp.swift */,
-				1DD106482A0EA5F600FF1FB9 /* ContentView.swift */,
+				1D305E1C2A12893B006DC3FB /* ViewController.swift */,
 				1DD106722A0EA84F00FF1FB9 /* OnboardingView.swift */,
+				1D305E1E2A12B1BA006DC3FB /* CameraView.swift */,
 				1DD1064A2A0EA5F800FF1FB9 /* Assets.xcassets */,
 				1DD1064C2A0EA5F800FF1FB9 /* Preview Content */,
 			);
@@ -261,8 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD106732A0EA84F00FF1FB9 /* OnboardingView.swift in Sources */,
-				1DD106492A0EA5F600FF1FB9 /* ContentView.swift in Sources */,
+				1D305E1D2A12893B006DC3FB /* ViewController.swift in Sources */,
 				1DD106472A0EA5F600FF1FB9 /* CromaticoApp.swift in Sources */,
+				1D305E1F2A12B1BA006DC3FB /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +428,8 @@
 				DEVELOPMENT_TEAM = JF8PTRU8N6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,6 +459,8 @@
 				DEVELOPMENT_TEAM = JF8PTRU8N6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
