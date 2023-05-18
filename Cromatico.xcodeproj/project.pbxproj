@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1D305E1D2A12893B006DC3FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D305E1C2A12893B006DC3FB /* ViewController.swift */; };
 		1D305E1F2A12B1BA006DC3FB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D305E1E2A12B1BA006DC3FB /* CameraView.swift */; };
+		1D713C262A16917600FF1CA0 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D713C252A16917600FF1CA0 /* ViewRouter.swift */; };
+		1D713C282A169C6900FF1CA0 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D713C272A169C6900FF1CA0 /* MotherView.swift */; };
 		1DD106472A0EA5F600FF1FB9 /* CromaticoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD106462A0EA5F600FF1FB9 /* CromaticoApp.swift */; };
 		1DD1064B2A0EA5F800FF1FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1064A2A0EA5F800FF1FB9 /* Assets.xcassets */; };
 		1DD1064E2A0EA5F800FF1FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1064D2A0EA5F800FF1FB9 /* Preview Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		1D305E1C2A12893B006DC3FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D305E1E2A12B1BA006DC3FB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		1D713C252A16917600FF1CA0 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		1D713C272A169C6900FF1CA0 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 		1DD106432A0EA5F600FF1FB9 /* Cromatico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cromatico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD106462A0EA5F600FF1FB9 /* CromaticoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CromaticoApp.swift; sourceTree = "<group>"; };
 		1DD1064A2A0EA5F800FF1FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				1DD106462A0EA5F600FF1FB9 /* CromaticoApp.swift */,
+				1D713C252A16917600FF1CA0 /* ViewRouter.swift */,
+				1D713C272A169C6900FF1CA0 /* MotherView.swift */,
 				1D305E1C2A12893B006DC3FB /* ViewController.swift */,
 				1DD106722A0EA84F00FF1FB9 /* OnboardingView.swift */,
 				1D305E1E2A12B1BA006DC3FB /* CameraView.swift */,
@@ -263,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D713C262A16917600FF1CA0 /* ViewRouter.swift in Sources */,
+				1D713C282A169C6900FF1CA0 /* MotherView.swift in Sources */,
 				1DD106732A0EA84F00FF1FB9 /* OnboardingView.swift in Sources */,
 				1D305E1D2A12893B006DC3FB /* ViewController.swift in Sources */,
 				1DD106472A0EA5F600FF1FB9 /* CromaticoApp.swift in Sources */,
